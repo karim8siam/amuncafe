@@ -1,34 +1,18 @@
 {
-  "version": 2,
   "cleanUrls": true,
   "trailingSlash": false,
-  "routes": [
+  "rewrites": [
     {
-      "src": "/public/(.*)",
-      "dest": "/public/$1"
+      "source": "/menu",
+      "destination": "/menu.html"
     },
     {
-      "src": "/menu",
-      "dest": "/menu.html"
+      "source": "/about",
+      "destination": "/about.html"
     },
     {
-      "src": "/about",
-      "dest": "/about.html"
-    },
-    {
-      "src": "/visit",
-      "dest": "/visit.html"
-    },
-    {
-      "src": "/",
-      "dest": "/index.html"
-    },
-    {
-      "handle": "filesystem"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
+      "source": "/visit",
+      "destination": "/visit.html"
     }
   ]
 }

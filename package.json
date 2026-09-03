@@ -1,5 +1,8 @@
 {
   "name": "amun-cafe",
   "version": "1.0.0",
-  "private": true
+  "private": true,
+  "scripts": {
+    "build": "echo 'Building AMUN CAFE static site'"
+  }
 }
