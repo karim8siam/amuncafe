@@ -1,18 +1,27 @@
 {
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "rewrites": [
+  "version": 2,
+  "builds": [
     {
-      "source": "/menu",
-      "destination": "/menu.html"
+      "src": "**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/menu",
+      "dest": "/menu.html"
     },
     {
-      "source": "/about",
-      "destination": "/about.html"
+      "src": "/about",
+      "dest": "/about.html"
     },
     {
-      "source": "/visit",
-      "destination": "/visit.html"
+      "src": "/visit",
+      "dest": "/visit.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
     }
   ]
 }
