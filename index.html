@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMUN CAFÉ — Specialty Coffee in Lisbon</title>
+  <meta name="description" content="AMUN CAFÉ is an independent specialty coffee shop and seasonal kitchen located at R. da Escola Politécnica 94 in Lisbon, Portugal.">
+  <link rel="icon" type="image/svg+xml" href="public/images/logo.svg">
+  <link rel="stylesheet" href="public/css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CafeOrCoffeeShop",
+    "name": "AMUN CAFÉ",
+    "image": "public/images/interior-seating.jpg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "R. da Escola Politécnica 94",
+      "addressLocality": "Lisboa",
+      "postalCode": "1250-100",
+      "addressCountry": "PT"
+    },
+    "telephone": "+351911054040",
+    "servesCuisine": "Specialty Coffee, Brunch, Healthy Food, Pastries",
+    "sameAs": [
+      "https://www.facebook.com/numacafelisboa/"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div style="background-color: var(--text-main); color: var(--bg-primary); padding: 0.5rem 1rem; font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; text-align: center; font-weight: 500;">
+    <span>Lisboa &bull; R. da Escola Politécnica 94 &bull; Specialty Coffee &amp; Seasonal Kitchen</span>
+  </div>
+  <header class="site-header">
+    <div class="site-container">
+      <div style="display: flex; align-items: center; justify-content: space-between; height: 86px;">
+        <a href="index.html" style="display: flex; align-items: center; text-decoration: none; color: inherit; width: 140px; height: 48px;" aria-label="AMUN CAFÉ Home">
+          <img src="public/images/logo.svg" alt="AMUN CAFÉ Logo" style="width: 100%; height: 100%; object-fit: contain;" />
+        </a>
+        <nav class="desktop-nav" style="display: flex; align-items: center; gap: 2.75rem;">
+          <a href="index.html" class="nav-link active">Home</a>
+          <a href="menu.html" class="nav-link">Menu</a>
+          <a href="about.html" class="nav-link">Story</a>
+          <a href="visit.html" class="nav-link">Visit</a>
+          <a href="visit.html#contact" class="nav-link">Contact</a>
+        </nav>
+        <div class="desktop-nav" style="display: flex; align-items: center; gap: 1.25rem;">
+          <a href="tel:+351911054040" class="btn-secondary" style="padding: 0.65rem 1.25rem; font-size: 0.75rem;" title="Call AMUN CAFÉ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>+351 911 054 040</span>
+          </a>
+          <a href="visit.html" class="btn-primary" style="padding: 0.65rem 1.4rem; font-size: 0.75rem;">Visit Us</a>
+        </div>
+        <button id="mobileMenuToggle" class="mobile-menu-btn" style="background: none; border: none; cursor: pointer; color: var(--text-main); padding: 0.5rem;" aria-label="Toggle Navigation Menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+  <div id="mobileNavDrawer" class="mobile-nav-drawer">
+    <div>
+      <div style="margin-bottom: 2rem; width: 140px;">
+        <img src="public/images/logo.svg" alt="AMUN CAFÉ Logo" style="width: 100%; height: auto;" />
+      </div>
+      <nav style="display: flex; flex-direction: column;">
+        <a href="index.html" class="mobile-nav-link active">Home</a>
+        <a href="menu.html" class="mobile-nav-link">Our Menu</a>
+        <a href="about.html" class="mobile-nav-link">Story &amp; Space</a>
+        <a href="visit.html" class="mobile-nav-link">Visit Us</a>
+        <a href="visit.html#contact" class="mobile-nav-link">Contact</a>
+      </nav>
+    </div>
+    <div>
+      <div style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.5rem; line-height: 1.6;">
+        <p style="font-weight: 600; color: var(--text-main);">AMUN CAFÉ</p>
+        <p>R. da Escola Politécnica 94</p>
+        <p>1250-100 Lisboa, Portugal</p>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+        <a href="tel:+351911054040" class="btn-primary" style="width: 100%;">Call +351 911 054 040</a>
+        <a href="https://maps.google.com/?q=R.+da+Escola+Polit%C3%A9cnica+94,+1250-100+Lisboa,+Portugal" target="_blank" rel="noopener noreferrer" class="btn-secondary" style="width: 100%;">Get Directions</a>
+      </div>
+    </div>
+  </div>
+  <main>
+    <section style="position: relative; min-height: 90vh; display: flex; align-items: center; padding-top: 110px; padding-bottom: 4rem; overflow: hidden;">
+      <div class="site-container" style="position: relative; z-index: 2; width: 100%;">
+        <div class="editorial-grid" style="align-items: center;">
+          <div class="col-12 col-lg-5 reveal-item" style="margin-bottom: 2.5rem;">
+            <span class="tag-label" style="margin-bottom: 1.5rem;">Lisboa &bull; Specialty Coffee Shop</span>
+            <h1 class="heading-giant" style="margin-bottom: 1.25rem;">AMUN CAFÉ</h1>
+            <p style="font-family: var(--font-display); font-size: clamp(1.4rem, 3vw, 2.35rem); line-height: 1.2; color: var(--text-main); margin-bottom: 1.75rem; letter-spacing: 0.04em;">SPECIALTY COFFEE<br>IN LISBON</p>
+            <p style="font-size: 1.1rem; color: var(--text-muted); max-width: 500px; line-height: 1.7; margin-bottom: 2.5rem;">Coffee, food and good moments in the heart of Lisbon. An artisanal sanctuary of thoughtful brewing and fresh seasonal kitchen creations.</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center;">
+              <a href="visit.html" class="btn-primary">Visit AMUN</a>
+              <a href="menu.html" class="btn-secondary">Explore Menu &rarr;</a>
+            </div>
+          </div>
+          <div class="col-12 col-lg-7 reveal-item delay-2">
+            <div class="img-frame img-frame-zoom" style="aspect-ratio: 16/10; box-shadow: var(--shadow-editorial); position: relative;" data-caption="AMUN CAFÉ — Dining room and signature interior cactus">
+              <img src="public/images/interior-seating.jpg" alt="AMUN CAFÉ light-filled interior seating with cactus" loading="eager" />
+              <div style="position: absolute; bottom: 1.5rem; left: 1.5rem; background: rgba(250, 247, 242, 0.92); backdrop-filter: blur(8px); padding: 0.75rem 1.25rem; font-size: 0.75rem; letter-spacing: 0.15em; text-transform: uppercase; font-weight: 600;">📍 R. da Escola Politécnica 94, Lisboa</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="marquee-container" style="background-color: var(--bg-secondary); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 1.25rem 0;">
+      <div class="marquee-track">
+        <span style="font-family: var(--font-serif); font-size: 1.35rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--text-main); padding-right: 4rem;">AMUN CAFÉ &bull; SPECIALTY COFFEE &bull; FRESH BRUNCH &bull; V60 POUR OVER &bull; MATCHA &amp; GOLDEN LATTE &bull; LISBOA &bull; ARTISANAL PASTRIES &bull; AMUN CAFÉ &bull; SPECIALTY COFFEE &bull; FRESH BRUNCH &bull; V60 POUR OVER &bull; MATCHA &amp; GOLDEN LATTE &bull; LISBOA &bull; ARTISANAL PASTRIES &bull;</span>
+      </div>
+    </section>
+    <section style="padding: clamp(5rem, 10vw, 8.5rem) 0; background-color: var(--bg-primary);">
+      <div class="site-container">
+        <div class="editorial-grid" style="align-items: center;">
+          <div class="col-12 col-lg-5 reveal-item" style="margin-bottom: 2rem;">
+            <div class="img-frame img-frame-zoom" style="aspect-ratio: 4/5; box-shadow: var(--shadow-medium);" data-caption="AMUN CAFÉ — Custom espresso bar and La Marzocco machine">
+              <img src="public/images/counter-bar.jpg" alt="AMUN CAFÉ espresso bar and coffee menu" loading="lazy" />
+            </div>
+          </div>
+          <div class="col-12 col-lg-7 reveal-item delay-2">
+            <span class="tag-label" style="margin-bottom: 1.5rem;">02 &bull; The Philosophy</span>
+            <h2 class="heading-xl" style="margin-bottom: 2rem; font-weight: 300;">&ldquo;Good coffee.<br>Good food.<br>A good place to pause.&rdquo;</h2>
+            <div class="divider" style="margin-bottom: 2rem;"></div>
+            <p style="font-size: 1.05rem; color: var(--text-muted); line-height: 1.8; margin-bottom: 1.75rem;">Nestled on the sunlit slope of Rua da Escola Politécnica, AMUN CAFÉ offers an unhurried haven in Lisbon. We pair carefully selected specialty coffee beans with honest, seasonal food prepared fresh in our kitchen.</p>
+            <p style="font-size: 1.05rem; color: var(--text-muted); line-height: 1.8; margin-bottom: 2.25rem;">Whether you stop by for a morning Flat White, a vibrant lunch bowl, or a quiet moment with a book, our space is designed for calm reflection and authentic flavor.</p>
+            <a href="about.html" class="btn-link">Read Our Story &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section style="padding: clamp(5rem, 10vw, 8.5rem) 0; background-color: var(--bg-secondary); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+      <div class="site-container">
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; margin-bottom: clamp(3rem, 5vw, 4.5rem);" class="reveal-item">
+          <div>
+            <span class="tag-label" style="margin-bottom: 0.75rem;">03 &bull; The Espresso Bar</span>
+            <h2 class="heading-xl">Specialty Coffee Craft</h2>
+          </div>
+          <a href="menu.html" class="btn-secondary" style="margin-top: 1rem;">View Drink Lineup &rarr;</a>
+        </div>
+        <div class="editorial-grid">
+          <div class="col-12 col-lg-4 reveal-item" style="margin-bottom: 1.5rem;">
+            <div class="img-frame img-frame-zoom" style="aspect-ratio: 4/5; margin-bottom: 1.5rem;" data-caption="Matcha Latte and Golden Turmeric Latte">
+              <img src="public/images/smoothie-bowl-golden-latte.jpg" alt="Golden turmeric latte and matcha" loading="lazy" />
+            </div>
+            <span class="tag-label" style="font-size: 0.7rem; margin-bottom: 0.5rem;">Signature Brewing</span>
+            <h3 class="heading-md" style="margin-bottom: 0.75rem;">Espresso &amp; Filter Craft</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.65;">Featuring single-origin beans roasted for clarity. Prepared meticulously on our La Marzocco bar and manual V60 drip stations.</p>
+          </div>
+          <div class="col-12 col-lg-4 reveal-item delay-1" style="margin-bottom: 1.5rem;">
+            <div class="img-frame img-frame-zoom" style="aspect-ratio: 4/5; margin-bottom: 1.5rem;" data-caption="Pink Beetroot Latte and House Cake">
+              <img src="public/images/cake-pink-latte.jpg" alt="Pink beetroot latte with latte art and honey sponge cake" loading="lazy" />
+            </div>
+            <span class="tag-label" style="font-size: 0.7rem; margin-bottom: 0.5rem;">Specialty Elixirs</span>
+            <h3 class="heading-md" style="margin-bottom: 0.75rem;">Golden &amp; Pink Lattes</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.65;">Wholesome plant-powered beverages including Matcha, Golden Turmeric Latte, and fresh Beetroot Latte topped with delicate foam art.</p>
+          </div>
+          <div class="col-12 col-lg-7 reveal-item delay-2">
+            <div class="img-frame img-frame-zoom" style="aspect-ratio: 4/5; margin-bottom: 1.5rem;" data-caption="Fresh Berry Smoothie and Cold Beverages">
+              <img src="public/images/smoothie-menu-topview.jpg" alt="Cold pressed smoothies and juices" loading="lazy" />
+            </div>
+            <span class="tag-label" style="font-size: 0.7rem; margin-bottom: 0.5rem;">Fresh Press</span>
+            <h3 class="heading-md" style="margin-bottom: 0.75rem;">Smoothies &amp; Cold Drinks</h3>
+            <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.65;">Blended smoothies packed with antioxidant berries, toasted seeds, organic oats, and daily fresh cold-pressed Portuguese fruit juices.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section style="padding: clamp(5rem, 10vw, 8.5rem) 0; background-color: var(--bg-primary);">
+      <div class="site-container">
+        <div class="editorial-grid" style="align-items: center; margin-bottom: clamp(3rem, 6vw, 5rem);">
+          <div class="col-12 col-lg-6 reveal-item" style="margin-bottom: 2rem;">
+            <div class="img-frame img-frame-zoom" style="aspect-ratio: 1/1; box-shadow: var(--shadow-editorial);" data-caption="Sourdough Avocado Toast with Dukkah and Microgreens">
+              <img src="public/images/avocado-toast.jpg" alt="Avocado toast on dark sourdough with seeds and microgreens" loading="lazy" />
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 reveal-item delay-1">
+            <span class="tag-label" style="margin-bottom: 1.25rem;">04 &bull; The Kitchen</span>
+            <h2 class="heading-xl" style="margin-bottom: 1.5rem;">Honest, Vibrant Seasonal Food</h2>
+            <p style="font-size: 1.05rem; color: var(--text-muted); line-height: 1.8; margin-bottom: 1.5rem;">Our kitchen celebrates fresh market ingredients sourced daily. From hearty sourdough toasts layered with velvety avocado to fresh fruit pancake platters and colorful salads, everything is crafted with care and intention.</p>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 2rem; border-top: 1px solid var(--border); padding-top: 1.5rem;">
+              <div><h4 style="font-family: var(--font-sans); font-size: 0.85rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.5rem; color: var(--text-main);">Organic Produce</h4><p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5;">Farm-fresh greens, ripe avocados, and seasonal figs.</p></div>
+              <div><h4 style="font-family: var(--font-sans); font-size: 0.85rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 0.5rem; color: var(--text-main);">Artisanal Baking</h4><p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5;">Crusty country sourdough, freshly baked bagels, and pastries.</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="editorial-grid">
+          <div class="col-12 col-lg-4 reveal-item" style="margin-bottom: 1.5rem;">
+            <div class="img-frame img-frame-zoom" style="aspect-ratio: 4/5; margin-bottom: 1.25rem;" data-caption="Fresh Fig and Peach Salad with Ricotta">
+              <img src="public/images/fig-peach-salad-bowl.jpg" alt="Summer salad with fresh figs and peach slices" loading="lazy" />
+            </div>
+            <h3 class="heading-md" style="margin-bottom: 0.35rem;">Fig &amp; Peach Salad</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">Fresh seasonal figs, ripe peach slices, vegan ricotta, cherry tomatoes, and toasted sesame.</p>
+          </div>
+          <div class="col-12 col-lg-4 reveal-item delay-1" style="margin-bottom: 1.5rem;">
+            <div class="img-frame img-frame-zoom" style="aspect-ratio: 4/5; margin-bottom: 1.25rem;" data-caption="Poached Egg and Smoked Salmon Sourdough Toast">
+              <img src="public/images/poached-egg-salmon-toast.jpg" alt="Sourdough toast with smoked salmon and soft poached egg" loading="lazy" />
+            </div>
+            <h3 class="heading-md" style="margin-bottom: 0.35rem;">Salmon &amp; Poached Egg Toast</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">Artisanal toasted sourdough, cured salmon, creamy spread, soft poached egg, chives, and paprika.</p>
+          </div>
+          <div class="col-12 col-lg-7 reveal-item delay-2">
+            <div class="img-frame img-frame-zoom" style="aspect-ratio: 4/5; margin-bottom: 1.25rem;" data-caption="Pancake and Fresh Fruit Breakfast Platter">
+              <img src="public/images/pancakes-fruit-platter.jpg" alt="Pancake plate with sliced kiwi, banana, strawberries, and almonds" loading="lazy" />
+            </div>
+            <h3 class="heading-md" style="margin-bottom: 0.35rem;">Fruit &amp; Pancake Platter</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">Fluffy house pancake accompanied by kiwi, fresh strawberries, sliced banana, chia seeds, and flaked almonds.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="menu" style="padding: clamp(5rem, 10vw, 8.5rem) 0; background-color: var(--bg-secondary); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+      <div class="site-container-narrow">
+        <div style="text-align: center; margin-bottom: 3.5rem;" class="reveal-item">
+          <span class="tag-label" style="margin-bottom: 0.75rem;">05 &bull; Seasonal Selections</span>
+          <h2 class="heading-xl" style="margin-bottom: 1rem;">The AMUN Menu</h2>
+          <p style="color: var(--text-muted); font-size: 1rem; max-width: 520px; margin: 0 auto;">Prepared freshly upon order with authentic specialty beans and local market ingredients.</p>
+          <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem; margin-top: 2rem;">
+            <button class="menu-tab-btn active" data-category="all">All Items</button>
+            <button class="menu-tab-btn" data-category="coffee">Specialty Coffee</button>
+            <button class="menu-tab-btn" data-category="drinks">Signature Drinks</button>
+            <button class="menu-tab-btn" data-category="food">Kitchen &amp; Toast</button>
+            <button class="menu-tab-btn" data-category="bowls">Bowls &amp; Sweets</button>
+          </div>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 2rem;">
+          <div class="menu-category-group" data-category="coffee">
+            <div style="display: flex; align-items: baseline; justify-content: space-between; border-bottom: 2px solid var(--text-main); padding-bottom: 0.5rem; margin-bottom: 1.5rem;">
+              <h3 style="font-family: var(--font-sans); font-size: 0.9rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase;">Specialty Coffee Bar</h3>
+              <span style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em;">Single Origin &amp; House Roast</span>
+            </div>
+            <div class="menu-item-row"><div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;"><h4 style="font-family: var(--font-serif); font-size: 1.35rem; font-weight: 500;">Espresso / Duplo</h4><span style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--accent); text-transform: uppercase;">Specialty Espresso</span></div><p style="font-size: 0.88rem; color: var(--text-muted);">Double-shot extraction highlighting nuanced fruit and chocolate notes.</p></div>
+            <div class="menu-item-row"><div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;"><h4 style="font-family: var(--font-serif); font-size: 1.35rem; font-weight: 500;">Meia de Leite &bull; Flat White</h4><span style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--accent); text-transform: uppercase;">Steamed Milk</span></div><p style="font-size: 0.88rem; color: var(--text-muted);">Velvety textured microfoam folded over double espresso. Oat and almond milk available.</p></div>
+            <div class="menu-item-row"><div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;"><h4 style="font-family: var(--font-serif); font-size: 1.35rem; font-weight: 500;">V60 Single Origin Pour-Over</h4><span style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--accent); text-transform: uppercase;">Filter Craft</span></div><p style="font-size: 0.88rem; color: var(--text-muted);">Hand-brewed filter coffee celebrating subtle terroir and aromatic brightness.</p></div>
+            <div class="menu-item-row"><div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;"><h4 style="font-family: var(--font-serif); font-size: 1.35rem; font-weight: 500;">Iced Latte &bull; Mazagran</h4><span style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--accent); text-transform: uppercase;">Chilled Coffee</span></div><p style="font-size: 0.88rem; color: var(--text-muted);">Refreshing cold specialty espresso served over ice or infused with fresh citrus.</p></div>
+          </div>
+          <div class="menu-category-group" data-category="drinks">
+            <div style="display: flex; align-items: baseline; justify-content: space-between; border-bottom: 2px solid var(--text-main); padding-bottom: 0.5rem; margin-bottom: 1.5rem; margin-top: 1.5rem;">
+              <h3 style="font-family: var(--font-sans); font-size: 0.9rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase;">Signature Elixirs &amp; Smoothies</h3>
+              <span style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em;">House Blends</span>
+            </div>
+            <div class="menu-item-row"><div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;"><h4 style="font-family: var(--font-serif); font-size: 1.35rem; font-weight: 500;">Matcha &amp; Golden Latte</h4><span style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--accent); text-transform: uppercase;">Plant Powered</span></div><p style="font-size: 0.88rem; color: var(--text-muted);">Ceremonial Japanese matcha or golden turmeric blend with silky steamed plant milk.</p></div>
+            <div class="menu-item-row"><div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;"><h4 style="font-family: var(--font-serif); font-size: 1.35rem; font-weight: 500;">Pink Beetroot Latte</h4><span style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--accent); text-transform: uppercase;">Botanical</span></div><p style="font-size: 0.88rem; color: var(--text-muted);">Organic beetroot infusion topped with delicate latte art.</p></div>
+            <div class="menu-item-row"><div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;"><h4 style="font-family: var(--font-serif); font-size: 1.35rem; font-weight: 500;">Sumo do Dia &bull; Fresh Juice of the Day</h4><span style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--accent); text-transform: uppercase;">Cold Pressed</span></div><p style="font-size: 0.88rem; color: var(--text-muted);">Squeezed fresh from daily market fruits and Portuguese oranges.</p></div>
+            <div class="menu-item-row"><div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;"><h4 style="font-family: var(--font-serif); font-size: 1.35rem; font-weight: 500;">Wild Berry &amp; Oat Smoothie</h4><span style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--accent); text-transform: uppercase;">Fresh Blend</span></div><p style="font-size: 0.88rem; color: var(--text-muted);">Deep berry blend topped with golden granola and toasted seeds.</p></div>
+          </div>
+          <div class="menu-category-group" data-category="food">
+            <div style="display: flex; align-items: baseline; justify-content: space-between; border-bottom: 2px solid var(--text-main); padding-bottom: 0.5rem; margin-bottom: 1.5rem; margin-top: 1.5rem;">
+              <h3 style="font-family: var(--font-sans); font-size: 0.9rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase;">Kitchen &amp; Sourdough Toast</h3>
+              <span style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em;">All Day Brunch</span>
+            </div>
+            <div class="menu-item-row"><div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;"><h4 style="font-family: var(--font-serif); font-size: 1.35rem; font-weight: 500;">Green Toast &bull; Sourdough Avocado</h4><span style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--accent); text-transform: uppercase;">Vegetarian</span></div><p style="font-size: 0.88rem; color: var(--text-muted);">Country sourdough bread, smashed avocado, dukkah spice, edamame, and organic microgreens.</p></div>
+            <div class="menu-item-row"><div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;"><h4 style="font-family: var(--font-serif); font-size: 1.35rem; font-weight: 500;">Smoked Salmon &amp; Poached Egg Toast</h4><span style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--accent); text-transform: uppercase;">Signature</span></div><p style="font-size: 0.88rem; color: var(--text-muted);">Cured smoked salmon, soft poached egg, herbed cream cheese, fresh chives, and toasted seeds.</p></div>
+            <div class="menu-item-row"><div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;"><h4 style="font-family: var(--font-serif); font-size: 1.35rem; font-weight: 500;">Toasted Bagel Plate</h4><span style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--accent); text-transform: uppercase;">Classic</span></div><p style="font-size: 0.88rem; color: var(--text-muted);">Artisan golden bagel halves with cream spread, cured salmon / carrot lox, capers, and pickled onion.</p></div>
+            <div class="menu-item-row"><div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;"><h4 style="font-family: var(--font-serif); font-size: 1.35rem; font-weight: 500;">Artisanal Vegetable Quiche</h4><span style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--accent); text-transform: uppercase;">Baked Daily</span></div><p style="font-size: 0.88rem; color: var(--text-muted);">Flaky butter crust with roasted market vegetables, savory custard, and fresh garnish.</p></div>
+          </div>
+          <div class="menu-category-group" data-category="bowls">
+            <div style="display: flex; align-items: baseline; justify-content: space-between; border-bottom: 2px solid var(--text-main); padding-bottom: 0.5rem; margin-bottom: 1.5rem; margin-top: 1.5rem;">
+              <h3 style="font-family: var(--font-sans); font-size: 0.9rem; font-weight: 700; letter-spacing: 0.15em; text-transform: uppercase;">Fresh Bowls &amp; Sweet Treats</h3>
+              <span style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.1em;">Breakfast &amp; Sweets</span>
+            </div>
+            <div class="menu-item-row"><div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;"><h4 style="font-family: var(--font-serif); font-size: 1.35rem; font-weight: 500;">Green Smoothie Superfood Bowl</h4><span style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--accent); text-transform: uppercase;">Superfood</span></div><p style="font-size: 0.88rem; color: var(--text-muted);">Spirulina and green fruit base topped with sliced kiwi, fresh strawberries, banana, shredded coconut, and granola.</p></div>
+            <div class="menu-item-row"><div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;"><h4 style="font-family: var(--font-serif); font-size: 1.35rem; font-weight: 500;">Fig &amp; Peach Summer Salad Bowl</h4><span style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--accent); text-transform: uppercase;">Seasonal</span></div><p style="font-size: 0.88rem; color: var(--text-muted);">Sweet figs, ripe peach wedges, fresh greens, creamy ricotta, cherry tomatoes, and microgreens.</p></div>
+            <div class="menu-item-row"><div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;"><h4 style="font-family: var(--font-serif); font-size: 1.35rem; font-weight: 500;">Pancake &amp; Fresh Fruit Platter</h4><span style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--accent); text-transform: uppercase;">Sweet Brunch</span></div><p style="font-size: 0.88rem; color: var(--text-muted);">Golden pancake with whipped topping, seasonal berries, banana, kiwi, and toasted flaked almonds.</p></div>
+            <div class="menu-item-row"><div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.35rem;"><h4 style="font-family: var(--font-serif); font-size: 1.35rem; font-weight: 500;">House Honey Glazed Sponge Cake</h4><span style="font-size: 0.75rem; letter-spacing: 0.1em; color: var(--accent); text-transform: uppercase;">Pastry</span></div><p style="font-size: 0.88rem; color: var(--text-muted);">Tender sponge slice drizzled with artisanal honey and crunchy golden crumb topping.</p></div>
+          </div>
+        </div>
+        <div style="text-align: center; margin-top: 3.5rem;">
+          <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1.25rem;">For daily seasonal specials and dietary alternatives, feel free to ask our baristas in the café.</p>
+          <a href="visit.html" class="btn-primary">Plan Your Visit</a>
+        </div>
+      </div>
+    </section>
+    <section style="padding: clamp(5rem, 10vw, 8.5rem) 0; background-color: var(--bg-primary);">
+      <div class="site-container-fluid">
+        <div style="max-width: 800px; margin-bottom: clamp(3rem, 5vw, 4.5rem); padding: 0 clamp(1rem, 2vw, 2rem);" class="reveal-item">
+          <span class="tag-label" style="margin-bottom: 0.75rem;">06 &bull; Visual Journal</span>
+          <h2 class="heading-xl" style="margin-bottom: 1rem;">Life at AMUN CAFÉ</h2>
+          <p style="color: var(--text-muted); font-size: 1.05rem;">A glimpse into our Lisbon haven — where specialty brewing, fresh seasonal plates, and warm architectural design meet.</p>
+        </div>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem;">
+          <div class="img-frame img-frame-zoom reveal-item" style="aspect-ratio: 3/4; box-shadow: var(--shadow-subtle);" data-caption="AMUN CAFÉ interior dining space &amp; sunlight"><img src="public/images/interior-seating.jpg" alt="AMUN CAFÉ dining room" loading="lazy" /></div>
+          <div class="img-frame img-frame-zoom reveal-item delay-1" style="aspect-ratio: 4/5; box-shadow: var(--shadow-subtle);" data-caption="Espresso workstation &amp; La Marzocco machine"><img src="public/images/counter-bar.jpg" alt="Espresso machine and counter" loading="lazy" /></div>
+          <div class="img-frame img-frame-zoom reveal-item delay-2" style="aspect-ratio: 1/1; box-shadow: var(--shadow-subtle);" data-caption="Avocado toast on sourdough with edamame &amp; microgreens"><img src="public/images/avocado-toast.jpg" alt="Sourdough avocado toast" loading="lazy" /></div>
+          <div class="img-frame img-frame-zoom reveal-item" style="aspect-ratio: 4/5; box-shadow: var(--shadow-subtle);" data-caption="Fresh green superfood smoothie bowl and turmeric latte"><img src="public/images/smoothie-bowl-golden-latte.jpg" alt="Smoothie bowl with kiwi and latte" loading="lazy" /></div>
+          <div class="img-frame img-frame-zoom reveal-item delay-1" style="aspect-ratio: 3/4; box-shadow: var(--shadow-subtle);" data-caption="Smoked salmon &amp; poached egg toast"><img src="public/images/poached-egg-salmon-toast.jpg" alt="Smoked salmon egg toast" loading="lazy" /></div>
+          <div class="img-frame img-frame-zoom reveal-item delay-2" style="aspect-ratio: 1/1; box-shadow: var(--shadow-subtle);" data-caption="Summer fig and peach salad bowl"><img src="public/images/fig-peach-salad-bowl.jpg" alt="Fig and peach salad bowl" loading="lazy" /></div>
+          <div class="img-frame img-frame-zoom reveal-item" style="aspect-ratio: 4/5; box-shadow: var(--shadow-subtle);" data-caption="Pancake breakfast platter with fruit &amp; almond flakes"><img src="public/images/pancakes-fruit-platter.jpg" alt="Pancake platter" loading="lazy" /></div>
+          <div class="img-frame img-frame-zoom reveal-item delay-1" style="aspect-ratio: 3/4; box-shadow: var(--shadow-subtle);" data-caption="Artisanal roasted vegetable quiche slice"><img src="public/images/quiche-pie.jpg" alt="Quiche slice" loading="lazy" /></div>
+          <div class="img-frame img-frame-zoom reveal-item delay-2" style="aspect-ratio: 1/1; box-shadow: var(--shadow-subtle);" data-caption="Toasted bagels with cured salmon and smoothie"><img src="public/images/bagel-toast-smoothie.jpg" alt="Bagel and smoothie" loading="lazy" /></div>
+          <div class="img-frame img-frame-zoom reveal-item" style="aspect-ratio: 4/5; box-shadow: var(--shadow-subtle);" data-caption="Fresh ripe avocado slices on stoneware plate"><img src="public/images/fresh-avocado-slices.jpg" alt="Fresh avocado slices" loading="lazy" /></div>
+          <div class="img-frame img-frame-zoom reveal-item delay-1" style="aspect-ratio: 3/4; box-shadow: var(--shadow-subtle);" data-caption="Honey glazed sponge cake and pink beetroot latte"><img src="public/images/cake-pink-latte.jpg" alt="Cake and pink latte" loading="lazy" /></div>
+          <div class="img-frame img-frame-zoom reveal-item delay-2" style="aspect-ratio: 1/1; box-shadow: var(--shadow-subtle);" data-caption="Farm fresh organic greens and produce"><img src="public/images/fresh-greens.jpg" alt="Fresh farm greens" loading="lazy" /></div>
+          <div class="img-frame img-frame-zoom reveal-item" style="aspect-ratio: 4/5; box-shadow: var(--shadow-subtle);" data-caption="Toasted bagel plate with capers"><img src="public/images/bagel-plate.jpg" alt="Bagel plate close-up" loading="lazy" /></div>
+          <div class="img-frame img-frame-zoom reveal-item delay-1" style="aspect-ratio: 3/4; box-shadow: var(--shadow-subtle);" data-caption="Wild berry smoothie with physical AMUN printed menu"><img src="public/images/smoothie-menu-topview.jpg" alt="Berry smoothie on menu" loading="lazy" /></div>
+          <div class="img-frame img-frame-zoom reveal-item delay-2" style="aspect-ratio: 1/1; box-shadow: var(--shadow-subtle);" data-caption="Poached egg sourdough toast with paprika garnish"><img src="public/images/salmon-egg-toast-alt.jpg" alt="Poached egg toast" loading="lazy" /></div>
+        </div>
+      </div>
+    </section>
+    <section id="visit" style="padding: clamp(5rem, 10vw, 8.5rem) 0; background-color: var(--bg-secondary); border-top: 1px solid var(--border);">
+      <div class="site-container">
+        <div class="editorial-grid" style="align-items: stretch;">
+          <div class="col-12 col-lg-5 reveal-item" style="background: #FFFFFF; padding: clamp(2.5rem, 5vw, 4rem); border: 1px solid var(--border); box-shadow: var(--shadow-medium); display: flex; flex-direction: column; justify-content: space-between;">
+            <div>
+              <span class="tag-label" style="margin-bottom: 1.5rem;">07 &bull; Visit Us In Lisbon</span>
+              <h2 class="heading-lg" style="margin-bottom: 1.5rem;">AMUN CAFÉ</h2>
+              <div style="margin-bottom: 2rem;">
+                <p style="font-family: var(--font-sans); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--accent); font-weight: 700; margin-bottom: 0.35rem;">Address</p>
+                <p style="font-size: 1.15rem; font-family: var(--font-serif); color: var(--text-main); line-height: 1.4;">R. da Escola Politécnica 94<br>1250-100 Lisboa, Portugal</p>
+              </div>
+              <div style="margin-bottom: 2rem;">
+                <p style="font-family: var(--font-sans); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--accent); font-weight: 700; margin-bottom: 0.35rem;">Phone &bull; Direct Line</p>
+                <p style="font-size: 1.15rem; font-family: var(--font-serif); color: var(--text-main);"><a href="tel:+351911054040" style="color: inherit; text-decoration: none;">+351 911 054 040</a></p>
+              </div>
+              <div style="margin-bottom: 2rem;">
+                <p style="font-family: var(--font-sans); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.15em; color: var(--accent); font-weight: 700; margin-bottom: 0.35rem;">Neighborhood</p>
+                <p style="font-size: 0.95rem; color: var(--text-muted); line-height: 1.6;">Located along Rua da Escola Politécnica between Príncipe Real and Bairro Alto, just steps from the botanical gardens.</p>
+              </div>
+            </div>
+            <div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1.5rem; padding-top: 2rem; border-top: 1px solid var(--border-subtle);">
+              <a href="https://maps.google.com/?q=R.+da+Escola+Polit%C3%A9cnica+94,+1250-100+Lisboa,+Portugal" target="_blank" rel="noopener noreferrer" class="btn-primary" style="flex: 1; min-width: 180px;">Get Directions</a>
+              <a href="tel:+351911054040" class="btn-secondary" style="flex: 1; min-width: 180px;">Call AMUN</a>
+              <button class="btn-secondary btn-copy-address" style="width: 100%;" title="Copy Address">Copy Full Address</button>
+            </div>
+          </div>
+          <div class="col-12 col-lg-7 reveal-item delay-1" style="min-height: 380px;">
+            <div style="width: 100%; height: 100%; min-height: 380px; border: 1px solid var(--border); overflow: hidden; background: #EAE3D5; position: relative;">
+              <iframe src="https://maps.google.com/maps?q=R.+da+Escola+Polit%C3%A9cnica+94,+1250-100+Lisboa,+Portugal&t=&z=16&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="border:0; width: 100%; height: 100%; min-height: 380px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="AMUN CAFÉ Location on Google Maps"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section style="padding: clamp(4rem, 8vw, 6.5rem) 0; background-color: var(--bg-primary);">
+      <div class="site-container">
+        <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; margin-bottom: 2.5rem;" class="reveal-item">
+          <div>
+            <span class="tag-label" style="margin-bottom: 0.5rem;">08 &bull; Social Journal</span>
+            <h2 class="heading-lg">Connect With AMUN</h2>
+          </div>
+          <a href="https://www.facebook.com/numacafelisboa/" target="_blank" rel="noopener noreferrer" class="btn-secondary" style="margin-top: 1rem;">Visit Facebook Page &rarr;</a>
+        </div>
+        <div class="editorial-grid">
+          <div class="col-12 col-lg-4 reveal-item" style="margin-bottom: 1.5rem;"><div class="img-frame img-frame-zoom" style="aspect-ratio: 1/1;" data-caption="Morning flat white and house cake"><img src="public/images/cake-pink-latte.jpg" alt="Cake and latte" loading="lazy" /></div></div>
+          <div class="col-12 col-lg-4 reveal-item delay-1" style="margin-bottom: 1.5rem;"><div class="img-frame img-frame-zoom" style="aspect-ratio: 1/1;" data-caption="Artisan avocado sourdough toast"><img src="public/images/avocado-toast.jpg" alt="Avocado toast" loading="lazy" /></div></div>
+          <div class="col-12 col-lg-7 reveal-item delay-2"><div class="img-frame img-frame-zoom" style="aspect-ratio: 1/1;" data-caption="Warm sunlit interior in Lisbon"><img src="public/images/interior-seating.jpg" alt="Cafe interior" loading="lazy" /></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer style="background-color: var(--bg-dark); color: #FAF7F2; padding: clamp(4rem, 8vw, 7rem) 0 clamp(2rem, 4vw, 3rem) 0; position: relative;">
+    <div class="site-container">
+      <div class="editorial-grid" style="margin-bottom: clamp(3rem, 6vw, 5rem);">
+        <div style="grid-column: span 12; margin-bottom: 2rem;" class="reveal-item">
+          <div style="max-width: 180px; margin-bottom: 1.75rem; filter: invert(1) brightness(2);">
+            <img src="public/images/logo.svg" alt="AMUN CAFÉ" style="width: 100%; height: auto;" />
+          </div>
+          <p style="font-family: var(--font-serif); font-size: 1.65rem; line-height: 1.35; color: #E5DDD0; max-width: 480px; font-weight: 300;">Specialty coffee, seasonal brunch plates, and quiet moments in the historic heart of Lisbon.</p>
+        </div>
+        <div style="grid-column: span 12; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2.5rem; width: 100%; border-top: 1px solid var(--border-dark); padding-top: 3rem;" class="reveal-item delay-1">
+          <div>
+            <span class="tag-label" style="color: var(--accent); margin-bottom: 1.25rem;">Explore</span>
+            <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.9rem;">
+              <li><a href="index.html" style="color: #FAF7F2; text-decoration: none; opacity: 0.8;">Home</a></li>
+              <li><a href="menu.html" style="color: #FAF7F2; text-decoration: none; opacity: 0.8;">Seasonal Menu</a></li>
+              <li><a href="about.html" style="color: #FAF7F2; text-decoration: none; opacity: 0.8;">Story &amp; Space</a></li>
+              <li><a href="visit.html" style="color: #FAF7F2; text-decoration: none; opacity: 0.8;">Visit Us</a></li>
+            </ul>
+          </div>
+          <div>
+            <span class="tag-label" style="color: var(--accent); margin-bottom: 1.25rem;">Location</span>
+            <div style="color: #E5DDD0; font-size: 0.9rem; line-height: 1.7;">
+              <p style="font-weight: 600; color: #FAF7F2;">AMUN CAFÉ</p>
+              <p>R. da Escola Politécnica 94</p>
+              <p>1250-100 Lisboa, Portugal</p>
+              <p style="margin-top: 0.75rem;"><a href="https://maps.google.com/?q=R.+da+Escola+Polit%C3%A9cnica+94,+1250-100+Lisboa,+Portugal" target="_blank" rel="noopener noreferrer" style="color: var(--accent); text-decoration: underline; font-size: 0.85rem;">Google Maps Directions &rarr;</a></p>
+            </div>
+          </div>
+          <div>
+            <span class="tag-label" style="color: var(--accent); margin-bottom: 1.25rem;">Direct Line</span>
+            <div style="color: #E5DDD0; font-size: 0.9rem; line-height: 1.7;">
+              <p>Telephone:</p>
+              <p style="font-size: 1.1rem; font-family: var(--font-serif); margin: 0.25rem 0;"><a href="tel:+351911054040" style="color: #FAF7F2; text-decoration: none; border-bottom: 1px dotted var(--accent);">+351 911 054 040</a></p>
+              <p style="margin-top: 1rem; color: #9B948C; font-size: 0.85rem;">Walk-ins warmly welcomed every day.</p>
+            </div>
+          </div>
+          <div>
+            <span class="tag-label" style="color: var(--accent); margin-bottom: 1.25rem;">Connect</span>
+            <div style="display: flex; flex-direction: column; gap: 0.75rem; font-size: 0.9rem;">
+              <a href="https://www.facebook.com/numacafelisboa/" target="_blank" rel="noopener noreferrer" style="color: #FAF7F2; text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; opacity: 0.85;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                <span>Facebook Journal</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="border-top: 1px solid rgba(255,255,255,0.08); padding-top: 2rem; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; font-size: 0.8rem; color: #8A827A;">
+        <p>&copy; 2026 AMUN CAFÉ. All rights reserved. R. da Escola Politécnica 94, Lisboa, Portugal.</p>
+        <p style="letter-spacing: 0.1em; text-transform: uppercase;">Specialty Coffee &amp; Kitchen &bull; Lisboa</p>
+      </div>
+    </div>
+  </footer>
+  <div id="lightboxModal" class="lightbox-modal">
+    <button id="lightboxClose" class="lightbox-close" aria-label="Close Image">&times;</button>
+    <img id="lightboxImg" class="lightbox-img" src="" alt="AMUN CAFÉ preview" />
+    <div id="lightboxCaption" class="lightbox-caption"></div>
+  </div>
+  <script src="public/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 120" width="100%" height="100%" fill="none" stroke="currentColor">
+  <g stroke-width="2.2" stroke-linecap="square" stroke-linejoin="miter">
+    <polygon points="26,72 58,16 90,72" />
+    <rect x="98" y="16" width="56" height="56" />
+    <polyline points="98,16 126,72 154,16" />
+    <rect x="162" y="16" width="56" height="56" />
+    <line x1="162" y1="44" x2="218" y2="44" />
+    <path d="M 162,44 A 28,28 0 0,0 218,44" />
+    <rect x="226" y="16" width="56" height="56" />
+    <line x1="226" y1="16" x2="282" y2="72" />
+  </g>
+  <text x="154" y="104" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-size="15" font-weight="400" letter-spacing="0.48em" text-anchor="middle" fill="currentColor" stroke="none">C A F É</text>
+</svg>
